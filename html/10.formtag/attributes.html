@@ -1,0 +1,74 @@
+<html>
+    <head>
+
+    </head>
+<body>
+  <form>
+    <!-- autofocus :just focus on the particular one only -->
+    Membership number:<input test="number" name="membershipNumber" autofocus >
+    <br>
+    <br>
+      <!-- palceholder attribute :making Hint for the Enduser -->
+
+      Username:<input type="text" name="userName" placeholder="Mr.vishnukumar">
+      <br>
+      <br>
+      <!-- readonly attribute:just read can not modify -->
+      Empolyee ID:<input type="text" name="empolyeeid" value="101"  readonly>
+      <br>
+      <br>
+      PassWord:<input type="password" name="passWord" >
+      <br>
+      <br>
+      Select City:
+      <br>
+      <br>
+      <!-- checked : default checked -->
+     <label>
+        <input type="radio" name="city" value="bangalore" checked>Bangalore
+        </label>
+        <br>
+        <br>
+       <label>
+        <input type="radio" name="city" value="hyderabad">Hyderabad 
+       </label>
+       <br>
+       <br>
+       <label>
+        <input type="radio" name="city" value="kurnool">Kurnool
+       </label>
+       <br>
+       <br>
+       <label>
+        <input type="radio" name="city" value="mumbai">Mumbai 
+     </label>
+      <br>
+      <br>
+      Select Class :
+      <br>
+
+      <select name="class" multiple  size="10">
+        <option value="1" selected>1 </option>
+        <option value="2">2 </option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+         <option value="8">8</option>
+          <option value="9">9</option> 
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+      </select>
+      <br>
+      <br>
+  <!-- disabled : make some disabled untill fill the details -->
+     <input type="submit" disabled >
+     <input type="reset" disabled>
+  </form>
+</body> 
+    </html>

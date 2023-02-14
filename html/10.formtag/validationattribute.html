@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!-- required : give some error message fill the details -->
+        <!-- maxlength and maxlength used for charctercs limit -->
+        <!-- pattern: used for particular rules for charcheters -->
+        <!-- AUTOCOMPLETE: used details are saving when ur login -->
+
+       <form>
+        userName:<input type="text" name="userName"  minlength="5" maxlength="10"   size="50" required autocomplete="on">
+        <br>
+        <br>
+        phoneNumber:<input type="number" name="phone"  required>
+        <br>
+        <br>
+
+        passWord:<input type="text" name="passWord" minlength="10" pattern="[a-zA_Z]{3,10}" required autocomplete="on">
+        <br>
+        <br>
+        Email:<sup>*</sup>
+        <input type="email" name="email" >
+        <button>submit</button>
+        <button>reset</button>
+       </form>
+    </body>
+</html>
